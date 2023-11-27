@@ -63,7 +63,7 @@ const update = async (req, res) => {
       { new: true }
     ).exec();
 
-    custom.genreatePdf(
+    custom.genreatesPdf(
       "Invoice",
       { filename: "invoice", format: "A4" },
       result

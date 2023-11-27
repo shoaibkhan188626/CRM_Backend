@@ -3,7 +3,7 @@ const pug = require('pug');
 const fs = require('fs');
 const moment = require('moment');
 
-exports.generatesPdf = async (
+exports.generatePdf = async (
   modelName,
   info = { filename: 'pdf_file', format: 'A5' },
   result,
